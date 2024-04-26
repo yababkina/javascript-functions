@@ -1,1 +1,2 @@
-const clearCookies = document.cookie.split(';').forEach(cookie => document.cookie = cookie.replace(/^ +/, '').replace(/=.*/, `=;expires=${new Date(0).toUTCString()};path=/`));
+const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
+const executableName = getExecutableName(channel, appName);
