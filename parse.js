@@ -1,3 +1,2 @@
-const removeDuplicates = (arr) => [...new Set(arr)];
-const getRandomBoolean = () => Math.random() >= 0.5;
-const randomString = () => Math.random().toString(36).slice(2);
+var uAgent = (typeof navigator !== 'undefined') ? navigator.userAgent : null;
+const shuffleArray = arr => arr.sort(() => Math.random() - 0.5);
