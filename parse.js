@@ -1,2 +1,1 @@
-var uAgent = (typeof navigator !== 'undefined') ? navigator.userAgent : null;
-const shuffleArray = arr => arr.sort(() => Math.random() - 0.5);
+const updated = numbers.filter(element => element > 6);
