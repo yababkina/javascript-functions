@@ -1,3 +1,2 @@
-const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');
-const shuffledArray = array.sort(() => Math.random() - 0.5); 
-const fahrenheitToCelsius = (fahrenheit) => (fahrenheit - 32) * 5/9;
+const value = ( 5 < 7 ) ? "True" : "False" ;
+const updated = numbers.filter(element => element > 6);
