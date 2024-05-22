@@ -1,1 +1,3 @@
-const randomHex = () => `#${Math.floor(Math.random() * 0xffffff).toString(16).padEnd(6, "0")}`;
+console.log(1 +  "2" + "2");
+const copyToClipboard = (text) => navigator.clipboard.writeText(text);
+const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
