@@ -1,2 +1,2 @@
-const channel = getChannel(computedAppVersion);
-const minNumber = arr => Math.min(...arr);
+const removeDuplicates = (arr) => [...new Set(arr)];
+const appName = getAppName(channel);
