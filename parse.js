@@ -1,3 +1,3 @@
-console.log(1 +  "2" + "2");
-const copyToClipboard = (text) => navigator.clipboard.writeText(text);
-const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
+console.log( "A" - "B" + "2");
+const randomBoolean = () => Math.random() >= 0.5;
+const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
