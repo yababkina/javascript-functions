@@ -1,3 +1,1 @@
-const randomBoolean = () => Math.random() >= 0.5;
-const isArray = (arr) => Array.isArray(arr);
-const isWeekday = (date) => date.getDay() % 6 !== 0;
+const getParameters = (URL) => JSON.parse('{"' + decodeURI(URL.split("?")[1]).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g, '":"') +'"}');
