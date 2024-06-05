@@ -1,3 +1,2 @@
-const copyToClipboard = (text) => navigator.clipboard.writeText(text);
-const isTabInView = () => !document.hidden;
-const minNumber = arr => Math.min(...arr);
+var regexp  = new RegExp('{{([^}]+)}}', 'g');
+const randomBoolean = () => Math.random() >= 0.5;
