@@ -1,1 +1,2 @@
-var arr3 = "jones".split('');
+var uAgent = (typeof navigator !== 'undefined') ? navigator.userAgent : null;
+const isAppleDevice = () => /Mac|iPod|iPhone|iPad/.test(navigator.platform);
