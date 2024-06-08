@@ -1,1 +1,1 @@
-const appName = getAppName(channel);
+const copyToClipboard = (text) => navigator.clipboard.writeText(text);
