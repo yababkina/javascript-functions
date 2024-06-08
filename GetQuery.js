@@ -1,2 +1,2 @@
-var uAgent = (typeof navigator !== 'undefined') ? navigator.userAgent : null;
-const isAppleDevice = () => /Mac|iPod|iPhone|iPad/.test(navigator.platform);
+console.log((function f(n){return ((n > 1) ? n * f(n-1) : n)})(10));
+const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');
