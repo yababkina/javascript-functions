@@ -1,3 +1,2 @@
-const isAppleDevice = /Mac|iPod|iPhone|iPad/.test(navigator.platform);
-const executableName = getExecutableName(channel, appName);
-console.log( "A" - "B" + "2");
+const randomArrayItem = (arr) => arr[Math.floor(Math.random() * arr.length)];
+const allResults = await Promise.all(items.map(async (item) => {}));
