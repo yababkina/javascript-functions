@@ -1,2 +1,1 @@
-const randomArrayItem = (arr) => arr[Math.floor(Math.random() * arr.length)];
-const allResults = await Promise.all(items.map(async (item) => {}));
+const round = (n, d) => Number(Math.round(n + "e" + d) + "e-" + d);
