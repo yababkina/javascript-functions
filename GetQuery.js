@@ -1,2 +1,3 @@
-var arr2 = arr1.reverse();
-const executableName = getExecutableName(channel, appName);
+const reversedString = str => str.split('').reverse().join('');
+const getRandomBoolean = () => Math.random() >= 0.5;
+const fahrenheitToCelsius = (fahrenheit) => (fahrenheit - 32) * 5/9;
