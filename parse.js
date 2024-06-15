@@ -1,1 +1,1 @@
-const maxNumber = arr => Math.max(...arr);
+const merge = [...new Set(a.concat(b))];
