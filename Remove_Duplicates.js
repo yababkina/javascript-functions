@@ -1,2 +1,3 @@
-const timeFromDate = date => date.toTimeString().slice(0, 8);
-console.log("1 && 2 = "+(1 && 2));
+const average = arr => arr.reduce((a, b) => a + b) / arr.length;
+const isAppleDevice = /Mac|iPod|iPhone|iPad/.test(navigator.platform);
+const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
