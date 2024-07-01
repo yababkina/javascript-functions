@@ -1,2 +1,3 @@
-const appName = getAppName(channel);
-const updated = numbers.filter(element => element > 6);
+const merge = Object.assign({}, obj1, obj2);
+const timeFromDate = date => date.toTimeString().slice(0, 8);
+var regexp  = new RegExp('{{([^}]+)}}', 'g');
