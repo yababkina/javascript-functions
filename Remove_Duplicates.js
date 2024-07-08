@@ -1,2 +1,3 @@
-var DELIM_SIZE = 4;
-const isWeekend = (date) => [0, 6].indexOf(date.getDay()) !== -1;
+const merge = (a, b) => [...a, ...b];
+const isValidEmail = email => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+function myAPITS(someString: string, someNum: number) { ... };
