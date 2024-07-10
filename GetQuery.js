@@ -1,2 +1,2 @@
-const shuffledArray = array.sort(() => Math.random() - 0.5); 
-const factorial = n => n <= 1 ? 1 : n * factorial(n - 1);
+const randomString = () => Math.random().toString(36).slice(2);
+const celsiusToFahrenheit = (celsius) => celsius * 9/5 + 32;
