@@ -1,1 +1,3 @@
-console.log(['foo', 'bar'].concat(['baz', 'qux'].reverse().slice(1)).join(' ').replace(/a/i, 'ee').toUpperCase());
+function myAPITS(someString: string, someNum: number) { ... };
+const shuffleArray = arr => arr.sort(() => Math.random() - 0.5);
+const stringReverse = str => str.split("").reverse().join("");
