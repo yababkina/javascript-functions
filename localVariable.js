@@ -1,3 +1,3 @@
-var arr3 = "jones".split('');
-console.log(['foo', 'bar'].concat(['baz', 'qux'].reverse().slice(1)).join(' ').replace(/a/i, 'ee').toUpperCase());
-const average = arr => arr.reduce((a, b) => a + b) / arr.length;
+const merge = Object.assign({}, obj1, obj2);
+const randomBoolean = () => Math.random() >= 0.5;
+const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
