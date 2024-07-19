@@ -1,1 +1,1 @@
-const result = await makeHttpRequest(url);
+const toggleBool = () => (bool = !bool);
