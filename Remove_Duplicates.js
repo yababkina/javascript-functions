@@ -1,2 +1,1 @@
-const goToTop = () => window.scrollTo(0, 0);
-console.log(1 +  "2" + "2");
+const randomInteger = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
