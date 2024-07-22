@@ -1,2 +1,2 @@
-var DELIM_SIZE = 4;
-function myAPITS(someString: string, someNum: number) { ... };
+const goToTop = () => window.scrollTo(0, 0);
+console.log(1 +  "2" + "2");
