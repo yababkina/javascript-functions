@@ -1,3 +1,2 @@
-const intermediateAppPath = path.join(buildOutputPath, 'app');
-const reversedString = str => str.split('').reverse().join('');
-const merge = (a, b) => [...a, ...b];
+console.log("1 || 2 = "+(1 || 2));
+const capitalizeAllWords = str => str.replace(/\b\w/g, char => char.toUpperCase());
