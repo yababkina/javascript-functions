@@ -1,3 +1,3 @@
-function myAPITS(someString: string, someNum: number) { ... };
-const shuffleArray = arr => arr.sort(() => Math.random() - 0.5);
-const stringReverse = str => str.split("").reverse().join("");
+const removeDuplicates = (arr) => [...new Set(arr)];
+const minNumber = arr => Math.min(...arr);
+const isAppleDevice = () => /Mac|iPod|iPhone|iPad/.test(navigator.platform);
