@@ -1,3 +1,1 @@
-const toggleElementDisplay = element => element.style.display = (element.style.display === "none" ? "block" : "none");
-const intermediateAppPath = path.join(buildOutputPath, 'app');
-const apmRootPath = path.join(repositoryRootPath, 'apm');
+const dayDif = (date1, date2) => Math.ceil(Math.abs(date1.getTime() - date2.getTime()) / 86400000);
