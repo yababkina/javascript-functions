@@ -1,1 +1,3 @@
-console.log("0 || 1 = "+(0 || 1));
+const uniqueArr = (arr) => [...new Set(arr)];
+console.log(false === '0');
+const added = [0, 1, 2, 3, 4].map((item) => item + 1);
