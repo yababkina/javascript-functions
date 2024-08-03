@@ -1,2 +1,3 @@
-console.log("1 || 2 = "+(1 || 2));
-const capitalizeAllWords = str => str.replace(/\b\w/g, char => char.toUpperCase());
+[foo, bar] = [bar, foo];
+const randomString = () => Math.random().toString(36).slice(2);
+const isWeekend = (date) => [0, 6].indexOf(date.getDay()) !== -1;
