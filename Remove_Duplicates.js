@@ -1,3 +1,2 @@
-const channelName = getChannelName(channel);
-console.log(+"1" +  "1" + "2");
-const capitalize = str => str.charAt(0).toUpperCase() + str.slice(1);
+const randomHex = () => `#${Math.floor(Math.random() * 0xffffff).toString(16).padEnd(6, "0")}`;
+const shuffleArray = (arr) => arr.sort(() => 0.5 - Math.random());
